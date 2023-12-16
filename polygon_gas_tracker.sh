@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # <xbar.title>Polygon Gas Price Tracker</xbar.title>
-# <xbar.version>v2.0.1</xbar.version>
+# <xbar.version>v1.0.1</xbar.version>
 # <xbar.author>lytves</xbar.author>
 # <xbar.author.github>lytves</xbar.author.github>
 # <xbar.desc>Polygon GasPrice forecast system.</xbar.desc>
