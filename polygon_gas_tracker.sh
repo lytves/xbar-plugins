@@ -10,5 +10,5 @@
 #
 #Polygon GasPrice forecast system based on PolygonScan Developer APIs
 
-content=$(curl -s "https://api.polygonscan.com/api?module=gastracker&action=gasoracle&apikey=TZNPKBVIS18JISATIH95GYN2BTTHKCQ7CB" | /usr/local/bin/jq --raw-output '.result.SafeGasPrice');
+content=$(curl -s "https://api.polygonscan.com/api?module=gastracker&action=gasoracle&apikey=YOUR_API_KEY" | /usr/local/bin/jq --raw-output '.result.SafeGasPrice');
 echo "♾️ $content | color=purple"
